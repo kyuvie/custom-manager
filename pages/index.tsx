@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Check, CalendarCheck, GraphUp, Wrench } from "react-bootstrap-icons";
 
 const Home: NextPage = () => {
   const todayDate = new Date();
@@ -79,7 +80,23 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer>{/* 4 つボタンを並べる */}</footer>
+      <footer className="container-fluid">
+        {/* 4 つボタンを並べる */}
+        <div className="row justify-content-center">
+          <div className="col-auto">
+            <Check size={32} color={"red"} />
+          </div>
+          <div className="col-auto">
+            <CalendarCheck size={25} />
+          </div>
+          <div className="col-auto">
+            <GraphUp size={25} />
+          </div>
+          <div className="col-auto">
+            <Wrench size={25} />
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
