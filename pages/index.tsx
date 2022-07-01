@@ -26,16 +26,16 @@ const Home: NextPage = () => {
       <footer className="container-fluid">
         {/* 4 つボタンを並べる */}
         <div className="row justify-content-center">
-          <div className="col-auto">
+          <div className="col-auto m-0 t-0">
             <Check size={32} color={"red"} />
           </div>
-          <div className="col-auto">
+          <div className="col-auto m-0 t-0">
             <CalendarCheck size={25} />
           </div>
-          <div className="col-auto">
+          <div className="col-auto m-0 t-0">
             <GraphUp size={25} />
           </div>
-          <div className="col-auto">
+          <div className="col-auto m-0 t-0">
             <Wrench size={25} />
           </div>
         </div>

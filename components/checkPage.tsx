@@ -19,30 +19,30 @@ function CheckPage() {
       </div>
       {/* スタンプ */}
       <div className="row justify-content-center">
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
       </div>
-      <div className="row justify-content-center mt-1">
-        <div className="col-auto">
+      <div className="row justify-content-center p-0">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
-        <div className="col-auto">
+        <div className="col-auto m-0 p-0">
           <div style={{ border: "solid", width: "50px", height: "50px" }}></div>
         </div>
       </div>
