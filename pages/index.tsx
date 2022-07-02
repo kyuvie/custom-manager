@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Check, CalendarCheck, GraphUp, Wrench } from "react-bootstrap-icons";
 import CheckPage from "../components/checkPage";
+import CalendarPage from "../components/calendarPage";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +21,8 @@ const Home: NextPage = () => {
             <h1>Custom Manager</h1>
           </div>
         </div>
-        <CheckPage />
+        {/*<CheckPage />*/}
+        <CalendarPage />
       </main>
 
       <footer className="container-fluid">

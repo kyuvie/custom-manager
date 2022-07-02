@@ -1,0 +1,50 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.calendarDayTop {
+    border: 1px solid rgb(235, 235, 235);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    min-height: 30px;
+}
+
+.calendarDay {
+    border: 1px solid rgb(235, 235, 235);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    min-height: 120px;
+}
+
+.calendarDayNoCurrentMonth {
+    color: rgb(200, 200, 200);
+}
+
+.calendarDayLastRowChild {
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.calendarDayLastColChild {
+    border-right: 1px solid rgb(235, 235, 235);
+}
+
+.time {
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    padding: 10px 10px 3px 0px;
+    text-align: right;
+}
+
+.timeTop {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    padding: 10px 10px 3px 0px;
+    text-align: left;
+}
