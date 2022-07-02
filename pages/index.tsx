@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Check, CalendarCheck, GraphUp, Wrench } from "react-bootstrap-icons";
 import CheckPage from "../components/checkPage";
 import CalendarPage from "../components/calendarPage";
+import ProgressPage from "../components/progressPage";
 
 const Home: NextPage = () => {
   return (
@@ -22,7 +23,8 @@ const Home: NextPage = () => {
           </div>
         </div>
         {/*<CheckPage />*/}
-        <CalendarPage />
+        {/*<CalendarPage />*/}
+        <ProgressPage />
       </main>
 
       <footer className="container-fluid">
