@@ -2,7 +2,6 @@ import React from "react";
 import { ProgressBar } from "react-bootstrap";
 
 function ProgressPage() {
-  const todayDate = new Date();
   return (
     <>
       <div className="row justify-content-center mt-3 align-items-center">
