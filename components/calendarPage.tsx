@@ -6,7 +6,7 @@ function CalendarPage() {
     <>
       <h1 className={`${styles.title} text-center`}> 2022 11 月</h1>
       <div className={styles.calendar}>
-        <div className={"row"}>
+        <div className={"row flex-nowrap"}>
           <div className={`col ${styles.calendarDayTop}`}>
             <time dateTime={"2014-06-29"} className={styles.timeTop}>
               日
@@ -46,7 +46,7 @@ function CalendarPage() {
           </div>
         </div>
 
-        <div className={"row"}>
+        <div className={"row flex-nowrap"}>
           <div
             className={`col ${styles.calendarDay} ${styles.calendarDayNoCurrentMonth}`}
           >
@@ -89,7 +89,7 @@ function CalendarPage() {
             </time>
           </div>
         </div>
-        <div className="row">
+        <div className="row flex-nowrap">
           <div className={`col ${styles.calendarDay}`}>
             <time dateTime="2014-07-06" className={styles.time}>
               06
@@ -128,7 +128,7 @@ function CalendarPage() {
             </time>
           </div>
         </div>
-        <div className="row">
+        <div className="row flex-nowrap">
           <div className={`col ${styles.calendarDay} `}>
             <time dateTime="2014-07-13" className={styles.time}>
               13
@@ -167,7 +167,7 @@ function CalendarPage() {
             </time>
           </div>
         </div>
-        <div className="row">
+        <div className="row flex-nowrap">
           <div className={`col ${styles.calendarDay}`}>
             <time dateTime="2014-07-20" className={styles.time}>
               20
@@ -206,7 +206,7 @@ function CalendarPage() {
             </time>
           </div>
         </div>
-        <div className="row">
+        <div className="row flex-nowrap">
           <div
             className={`col ${styles.calendarDay} ${styles.calendarDayLastRowChild}`}
           >

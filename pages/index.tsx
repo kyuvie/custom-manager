@@ -23,8 +23,8 @@ const Home: NextPage = () => {
           </div>
         </div>
         {/*<CheckPage />*/}
-        {/*<CalendarPage />*/}
-        <ProgressPage />
+        <CalendarPage />
+        {/*<ProgressPage />*/}
       </main>
 
       <footer className="container-fluid">
