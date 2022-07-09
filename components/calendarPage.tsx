@@ -34,7 +34,10 @@ function CalendarPage() {
 
   return (
     <>
-      <h1 className={`${styles.title} text-center`}> 2022 7 月</h1>
+      <h1 className={`${styles.title} text-center`}>
+        {" "}
+        {"2022 " + month.selfNum + "月"}
+      </h1>
       <div className={styles.calendar}>
         <div className={"row flex-nowrap justify-content-center"}>
           <div className={`col ${styles.calendarDayTop}`}>
